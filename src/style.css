@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #FF5A5F;
+}
+
+body {
+  @apply bg-gray-50;
+}
