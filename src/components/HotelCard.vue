@@ -29,6 +29,7 @@ const navigateToHotel = () => {
       :alt="hotel.name"
       class="w-full h-48 object-cover"
     >
+
     <div class="p-4">
       <div class="flex justify-between items-start mb-2">
         <h3 class="text-lg font-semibold">{{ hotel.name }}</h3>
@@ -39,7 +40,7 @@ const navigateToHotel = () => {
       </div>
       <p class="text-gray-600 text-sm mb-2">{{ hotel.location }}</p>
       <p class="font-semibold">
-        {{ hotel.price }}€ <span class="text-gray-600 font-normal">/ nuit</span>
+        {{ hotel.price }}€ <span class="text-gray-600 font-normal">/ night</span>
       </p>
     </div>
   </div>
